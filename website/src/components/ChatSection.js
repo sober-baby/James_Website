@@ -34,7 +34,7 @@ function ChatSection() {
         {
           headers: {
             "Content-Type": "application/json",
-            Authorization: `Bearer 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`
+            Authorization: `Bearer `
           },
         }
       );

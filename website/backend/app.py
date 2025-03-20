@@ -8,10 +8,10 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
 DB_CONFIG = {
-    'host': 'localhost',
-    'database': 'personal_website',
-    'user': 'root',
-    'password': 'Ekm4ssx9'
+    'host': '',
+    'database': '',
+    'user': '',
+    'password': ''
 }
 
 @app.route('/api/chats', methods=['POST'])
